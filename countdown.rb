@@ -1,19 +1,19 @@
 #write your code here
 
-x = 10
+n = 10
 
-def countdown(x)
-  while x > 0
-    puts "#{x} SECOND(S!)"
-    x -= 1
+def countdown(n)
+  while n > 0
+    puts "#{n} SECOND(S!)"
+    n -= 1
   end
   "HAPPY NEW YEAR!"
 end
 
-def countdown_with_sleep(x)
-  while x > 0
-    puts "#{x} SECOND(S!)"
-    x -= 1
+def countdown_with_sleep(n)
+  while n > 0
+    puts "#{n} SECOND(S!)"
+    n -= 1
     sleep 1
   end
   "HAPPY NEW YEAR!"
